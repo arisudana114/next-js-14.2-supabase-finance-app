@@ -1,5 +1,14 @@
+import Button from "@/components/button";
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <div>Hello</div>
+    <>
+      <div>
+        <Button>
+          <Link href="/dashboard"></Link>
+        </Button>
+      </div>
+    </>
   );
 }

@@ -4,7 +4,7 @@ export const useFormatCurrency = (amount: number) => {
   const formatCurrency = (amount: number) =>
     new Intl.NumberFormat("en-US", {
       style: "currency",
-      currency: "EUR",
+      currency: "IDR",
     }).format(amount);
 
   return useMemo(() => formatCurrency(amount), [amount]);
