@@ -5,8 +5,9 @@ export default function Home() {
   return (
     <>
       <div>
+        <h1 className="text-4xl">Welcome to Finance App!</h1>
         <Button>
-          <Link href="/dashboard"></Link>
+          <Link href="/dashboard">Go to Finance Dashboard</Link>
         </Button>
       </div>
     </>
