@@ -37,7 +37,7 @@ export default function Trend({ type, amount, prevAmount }: TrendProps) {
       >
         {type}
       </div>
-      <div className="text-2xl font-semibold text-black dark:text-white mb-2">
+      <div className="text-2xl font-semibold text-black dark:text-white mb-2 break-words">
         {formattedAmount}
       </div>
       <div className="flex space-x-1 items-center text-sm">
