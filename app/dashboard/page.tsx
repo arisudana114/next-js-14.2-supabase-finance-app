@@ -31,7 +31,7 @@ export default async function Page({ searchParams }: any) {
         </aside>
       </section>
 
-      <section className="grid grid-cols-2 lg:grid-cols-4 gap-12">
+      <section className="grid grid-cols-2 lg:grid-cols-4 gap-8">
         {types.map((type) => (
           <ErrorBoundary
             key={type}
